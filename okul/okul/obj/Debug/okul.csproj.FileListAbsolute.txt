@@ -1,0 +1,10 @@
+C:\Users\ERYAMAN\Desktop\okul\okul\obj\Debug\okul.csprojResolveAssemblyReference.cache
+C:\Users\ERYAMAN\Desktop\okul\okul\obj\Debug\okul.csproj.CoreCompileInputs.cache
+C:\Users\ERYAMAN\Desktop\okul\okul\bin\Debug\okul.exe.config
+C:\Users\ERYAMAN\Desktop\okul\okul\bin\Debug\okul.exe
+C:\Users\ERYAMAN\Desktop\okul\okul\bin\Debug\okul.pdb
+C:\Users\ERYAMAN\Desktop\okul\okul\obj\Debug\okul.exe
+C:\Users\ERYAMAN\Desktop\okul\okul\obj\Debug\okul.pdb
+C:\Users\ERYAMAN\Desktop\okul\okul\bin\Debug\nunit.framework.dll
+C:\Users\ERYAMAN\Desktop\okul\okul\bin\Debug\nunit.framework.xml
+C:\Users\ERYAMAN\Desktop\okul\okul\bin\Debug\Mono.CSharp.dll

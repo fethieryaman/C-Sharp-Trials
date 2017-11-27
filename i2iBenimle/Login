@@ -1,0 +1,74 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace i2iBenimle
+{
+    public partial class login : Form
+    {
+        public login()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Color colorValueFrmHex  = ColorTranslator.FromHtml("#76B852");
+            this.BackColor = colorValueFrmHex;
+            // this.BackColor = System.Drawing.Color.DarkBlue;
+        }
+
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            // Color colorValueFrmHex2 = ColorTranslator.FromHtml("#34AADC");
+            // panel1.BackColor = colorValueFrmHex2;
+        }
+
+        private void pictureBox_Click(object sender, EventArgs e)
+        {
+            pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
+
+        private void label_tel_no_Click(object sender, EventArgs e)
+        {
+            //Color colorValueFrmHex = ColorTranslator.FromHtml("#5AD427");
+            //label_tel_no.ForeColor = colorValueFrmHex;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Color colorValueFrmHex2 = ColorTranslator.FromHtml("#34AADC");
+            button1.BackColor = colorValueFrmHex2;
+            ServiceReference.db_i2i_benimleClient client = new ServiceReference.db_i2i_benimleClient();
+
+
+            try {
+                if (client.get_contract_id(mask_txt_phone_number.Text, mask_txt_password.Text) != 0)
+                {
+                    MainMenu main_form = new MainMenu();
+                    main_form.Show();
+                    Hide();
+                }
+                else
+                    MessageBox.Show("Girmis oldugunuz bilgiler yanlıstır");                   
+            }
+
+            catch(Exception)
+            {
+                MessageBox.Show("Systems Error");
+            }
+        }
+
+        private void mask_txt_phone_number_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+    }
+}

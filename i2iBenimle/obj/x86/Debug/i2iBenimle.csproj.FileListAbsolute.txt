@@ -1,0 +1,10 @@
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\bin\x86\Debug\i2iBenimle.exe.config
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\bin\x86\Debug\i2iBenimle.exe
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\bin\x86\Debug\i2iBenimle.pdb
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\obj\x86\Debug\i2iBenimle.MainForm.resources
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\obj\x86\Debug\i2iBenimle.Login.resources
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\obj\x86\Debug\i2iBenimle.Properties.Resources.resources
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\obj\x86\Debug\i2iBenimle.csproj.GenerateResource.Cache
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\obj\x86\Debug\i2iBenimle.exe
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\obj\x86\Debug\i2iBenimle.pdb
+C:\Users\7208\documents\visual studio 2017\Projects\i2iBenimle\i2iBenimle\obj\x86\Debug\i2iBenimle.csprojResolveAssemblyReference.cache
